@@ -25,15 +25,6 @@ particlesJS('particles-js',
     "color": {
       "value": "#00ffff"
     },
-    "rotate": {
-      "random": true,
-      "direction": "random",
-      "animation": {
-        "enable": true,
-        "speed": 50,
-        "sync": false
-      }
-    },
     "shape": {
       "type": "polygon",
       "stroke": {
@@ -67,6 +58,14 @@ particlesJS('particles-js',
         "speed": 40,
         "size_min": 0.1,
         "sync": false
+      }
+    },
+    "rotate": {
+      "value": 360,
+      "random": true,
+      "anim": {
+        "enable": true,
+        "speed": -10
       }
     },
     "line_linked": {
